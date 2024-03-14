@@ -1,6 +1,5 @@
 import React, { useState } from 'react';
 import {FaBars, FaTimes} from 'react-icons/fa';
-import { AiOutlineCrown } from "react-icons/ai";
 import { Link } from 'react-scroll';
 
 const Navbar = () => {
@@ -33,7 +32,7 @@ const Navbar = () => {
   return (
     <div className='flex justify-between items-center w-full h-20 px-4 text-white bg-black sticky top-0'>
         <div>
-            <h1 className='text-5xl flex font-signature ml-2'><AiOutlineCrown/>Portfolio</h1>
+            <h1 className='text-4xl flex font-signature ml-2'>Arjun</h1>
         </div>
         
         <ul className="hidden md:flex">
