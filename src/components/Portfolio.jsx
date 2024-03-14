@@ -4,9 +4,9 @@ import project2 from '../assets/portfolio/project2.jpg';
 
 const Portfolio = () => {
   const portfolios = [
-    { id: 1, src: project1, href: "https://github.com/BlackHues", },
-    { id: 2, src: project1, href: "https://github.com/BlackHues", },
-    { id: 3, src: project1, href: "https://github.com/BlackHues", },
+    { id: 1, src: project1, href: "https://https://github.com/BlackHues/my-react-portfolio.com/BlackHues", },
+    { id: 2, src: project1, href: "https://github.https://github.com/BlackHues/my-react-portfolio/BlackHues", },
+    { id: 3, src: project1, href: "https://https://github.com/BlackHues/my-react-portfolio.com/BlackHues", },
     { id: 4, src: project2, href: "https://github.com/BlackHues", },
     { id: 5, src: project2, href: "https://github.com/BlackHues", },
     { id: 6, src: project2, href: "https://github.com/BlackHues", },
