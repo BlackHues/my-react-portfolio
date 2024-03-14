@@ -47,25 +47,22 @@ const Experience = () => {
   ];
 
   return (
-    <div
-      name="experience"
-      className="bg-gradient-to-b from-gray-800 to-black w-full h-screen"
-    >
-      <div className="maz-w-screen-lg mx-auto p-4 flex flex-col justify-center w-full h-full  text-white">
+    <div className="bg-gradient-to-b from-gray-800 to-black min-h-screen">
+      <div className="max-w-screen-lg mx-auto p-4 flex flex-col justify-center w-full text-white">
         <div>
-          <p className="text-4xl font-bold inline border-b-4 p-0  border-gray-500">
+          <p name="experience" className="text-4xl font-bold inline border-b-4 p-0 border-gray-500">
             Experience
           </p>
           <p className="py-5">These are the technologies I've worked with</p>
         </div>
 
-        <div className="self-center grid grid-cols-2 w-full sm:grid-cols-3 gap-8 text-center py-8 px-12 sm:px-0">
+        <div className="grid grid-cols-2 sm:grid-cols-3 gap-8 text-center py-8 px-12 sm:px-0">
           {skillset.map(({ id, src, title, style }) => (
             <div
               key={id}
               className={`shadow-md hover:scale-105 duration-500 py-2 rounded-lg ${style}`}
             >
-              <img src={src} alt="" className="w-20 mx-auto" />
+              <img src={src} alt={title} className="w-20 mx-auto" />
               <p className="mt-4">{title}</p>
             </div>
           ))}
