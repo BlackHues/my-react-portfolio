@@ -2,9 +2,10 @@ import React from "react";
 import Html from "../assets/html.png";
 import Css from "../assets/css-3.png";
 import django from "../assets/django.png";
-import react from "../assets/react.png";
+import physics from "../assets/physics.png";
 import python from "../assets/python.png";
 import JS from "../assets/javascript.png";
+import logo from "../assets/logo.png";
 
 const Experience = () => {
   const skillset = [
@@ -24,7 +25,7 @@ const Experience = () => {
       id: 3,
       src: python,
       title: "PYTHON",
-      style: "shadow-yellow-500",
+      style: "shadow-yellow-500 bg-white-500",
     },
     {
       id: 4,
@@ -34,7 +35,7 @@ const Experience = () => {
     },
     {
       id: 5,
-      src: react,
+      src: physics,
       title: "REACT",
       style: "shadow-cyan-600",
     },
@@ -43,6 +44,12 @@ const Experience = () => {
       src: JS,
       title: "JAVASCRIPT",
       style: "shadow-purple-600",
+    },
+    {
+      id: 7,
+      src: logo,
+      title: "GITHUB",
+      style: "shadow-gray-600",
     },
   ];
 
