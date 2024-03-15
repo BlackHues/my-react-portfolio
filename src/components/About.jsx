@@ -11,11 +11,13 @@ const About = () => {
         </div>
 
         <p className='text-xl mt-20 text-justify'>
-            I'm Arjun Kumar H, I completed my Bachelor's Degree in Mechanical Engineering (2016) from Younus Institute Of Technology; Kannanalloor, Kollam. After College did Technical Course in QA&QC (2016) at Blitz Academy, Kollam  and got placed as NDT Engineer (2017-2018) at L.G Inspection Services , Chennai. 
-            Later came back to Kollam, for family reasons and joined at IFB Home Appliances & Services, Paripally as a Technician (2019-2021). At covid time learned Python-Django from Youtube, and did 1 year internship as Python Developer (2022-2023) at Futuro IT Solutions, Ernakulam</p>
+            I'm Arjun Kumar H, I am from Kollam, Kerala. I completed my Bachelor's Degree in Mechanical Engineering (2016) from Younus Institute Of Technology; Kannanalloor, Kollam. 
+            After College did Technical Course in QA & QC, HVAC & MEP Engineering (2016) at Blitz Academy, Kollam  and got placed as a NDT Engineer (2017-2018) at L.G Inspection Services , Chennai. 
+            Later I joined at IFB Home Appliances & Services, Paripally as a Technician (2019-2021). I Did 1 year internship as Python Developer (2022-2023) at Futuro IT Solutions, Ernakulam</p>
         <br />
         <p className='text-xl text-justify'>
-            My family consists of Mother, Elder Brother and Myself. My hobbies are Photography, Drawing, Bike ride, Travelling, etc. I can speak Tamil (Native), English (Fluent) and Malayalam (Fluent). I have passion in self-learning and ready to face any obstacles and clear it. I'm currently looking for a job in React Domain.
+            My family consists of Mother, Elder Brother and Myself. My hobbies are Photography, Drawing, Bike ride, Travelling, etc. I can speak Tamil (Native), English (Fluent) and Malayalam (Fluent). I have passion in self-learning and ready to face any obstacles and clear it. 
+            Please feel free to contact me at your convenience via phone at +91-9995956770 or via email at arjunh2194@gmail.com.
         </p>
       </div>
     </div>
