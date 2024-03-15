@@ -32,7 +32,7 @@ const Home = () => {
           <span className="animate-blink"></span>
         </h2>
           <p className='text-gray-500 py-4 max-w-md text-justify'>
-            Worked at Futuro IT Solutions at Ernakulam for 1 year as Python Developer, where I used Django Frameworks to create responsive web applications with both front and backends. Before coming to the software field, I was working as a Technician for IFB Home Appliances & Services at Trivandrum for 2 years and another 1 year as an NDT Engineer in L.G Inspection Services at Chennai.
+            I am Arjun Kumar H, I'm from Kollam, Kerala. With a B.Tech in mechanical engineering and 1 year of experience as a Python Developer (Django) at Futuro IT Solutions Pvt Ltd. Currently my aim is to work in a well known organization and contribute my skills. My passion for react.js made me focused on React and i'm self learning and doing projects on it.
           </p>
           <div>
             <Link to="portfolio" smooth duration={300} className='group text-white w-fit px-6 py-3 my-2 flex items-center rounded-md bg-gradient-to-r from-cyan-500 to-blue-500 cursor-pointer'>
