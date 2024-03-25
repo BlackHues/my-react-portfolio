@@ -8,7 +8,7 @@ import { Link } from 'react-scroll';
 const Home = () => {
 
   const [text, setText] = useState('');
-  const initialText = "I'm a React JS Developer";
+  const initialText = "I'm a Full Stack Developer";
 
   useEffect(() => {
     let index = 0;
@@ -19,7 +19,7 @@ const Home = () => {
       } else {
         clearInterval(typingInterval);
       }
-    }, 100);
+    }, 50);
 
     return () => clearInterval(typingInterval);
   }, []);
@@ -32,7 +32,7 @@ const Home = () => {
           <span className="animate-blink"></span>
         </h2>
           <p className='text-gray-500 py-4 max-w-md text-justify'>
-            I am Arjun Kumar H, I'm from Kollam, Kerala. With a B.Tech in mechanical engineering and 1 year of experience as a Python Developer (Django) at Futuro IT Solutions Pvt Ltd. Currently my aim is to work in a well known organization and contribute my skills. My passion for react.js made me focused on React and i'm self learning and doing projects on it.
+            I am Arjun Kumar H, I'm from Kollam, Kerala. With a B.Tech in mechanical engineering and 1 year of experience as a Python Developer (Django) at Futuro IT Solutions Pvt Ltd. Currently my aim is to work in a well known organization and contribute my skills. My passion for react.js made me focused on React and i'm self learning and doing projects on it as well.
           </p>
           <div>
             <Link to="portfolio" smooth duration={300} className='group text-white w-fit px-6 py-3 my-2 flex items-center rounded-md bg-gradient-to-r from-cyan-500 to-blue-500 cursor-pointer'>
