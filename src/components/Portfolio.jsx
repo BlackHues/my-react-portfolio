@@ -2,12 +2,14 @@ import React from "react";
 import project1 from '../assets/portfolio/project1.png';
 import project2 from '../assets/portfolio/project2.png';
 import project3 from '../assets/portfolio/project3.png';
+import project4 from '../assets/portfolio/project4.png';
 
 const Portfolio = () => {
   const portfolios = [
     { id: 1, src: project1, href: "https://github.com/BlackHues/my-react-portfolio", },
     { id: 2, src: project2, href: "https://github.com/BlackHues/Ecommerce-React.js/tree/master", },
     { id: 3, src: project3, href: "https://github.com/BlackHues/jobapp", },
+    { id: 4, src: project4, href: "https://github.com/BlackHues/Bikes", },
   ];
 
   return (
