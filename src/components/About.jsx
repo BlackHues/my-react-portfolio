@@ -11,7 +11,7 @@ const About = () => {
         </div>
 
         <p className='text-xl mt-20 text-justify'>
-            I'm Arjun Kumar H, I am from Kollam, Kerala. I completed my Bachelor's Degree in Mechanical Engineering (2016) from Younus Institute Of Technology; Kannanalloor, Kollam. 
+            I am Arjun Kumar H. With a Bachelor's Degree in Mechanical Engineering (2016) from Younus Institute Of Technology; Kannanalloor, Kollam. 
             After College did Technical Course in QA & QC, HVAC & MEP Engineering (2016) at Blitz Academy, Kollam  and got placed as a NDT Engineer (2017-2018) at L.G Inspection Services , Chennai. 
             Later I joined at IFB Home Appliances & Services, Paripally as a Technician (2019-2021). I Did 1 year internship as Python Developer (2022-2023) at Futuro IT Solutions, Ernakulam. 
             Through consistent learning i honed my skills in Html, CSS, Javascript, Bootstrap and Frameworks like Flask, Django & React. I did projects with each frameworks. Now my passion for React.js is 
