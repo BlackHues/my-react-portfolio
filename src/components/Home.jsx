@@ -1,4 +1,3 @@
-import React, { useEffect, useState } from 'react';
 import HeroImage from '../assets/heroImage.JPG';
 import { RxDoubleArrowRight } from "react-icons/rx";
 import { Link } from 'react-scroll';
@@ -7,29 +6,12 @@ import { Link } from 'react-scroll';
   
 const Home = () => {
 
-  const [text, setText] = useState('');
-  const initialText = "I'm a Full Stack Developer";
-
-  useEffect(() => {
-    let index = 0;
-    const typingInterval = setInterval(() => {
-      if (index <= initialText.length) {
-        setText(initialText.slice(0, index));
-        index++;
-      } else {
-        clearInterval(typingInterval);
-      }
-    }, 50);
-
-    return () => clearInterval(typingInterval);
-  }, []);
   return (
     <div name="home" className='md:h-screen bg-gradient-to-b from-black to-gray-800 text-white flex flex-col justify-center items-center'>
       <div className='max-w-screen-lg mx-auto flex flex-col md:flex-row items-center justify-center px-4'>
         <div className='flex flex-col justify-center text-center md:text-left md:mr-10'>
         <h2 className='text-4xl sm:text-7xl font-bold text-left'>
-          {text}
-          <span className="animate-blink"></span>
+          I'm a Full Stack Developer
         </h2>
           <p className='text-gray-500 py-4 max-w-md text-justify'>
             I am Arjun Kumar H, I'm from Kollam, Kerala. With a B.Tech in mechanical engineering and 1 year of experience as a Python Developer (Django) at Futuro IT Solutions Pvt Ltd. Currently my aim is to work in a well known organization and contribute my skills. My passion for react.js made me focused on React and i'm self learning and doing projects on it as well.
